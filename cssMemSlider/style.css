@@ -9,24 +9,24 @@ body {
 
 main {
   margin: 0 auto;
-  padding: 20px 30px;
+  padding: 1.25rem 1.875rem;
 }
 
 .slider{
   margin: 0 auto;
-  width: 800px;
+  width: 50rem;
 }
 
 .slider_img, .slider_text {
   display: flex;
   overflow: hidden;
-  max-width: 800px;
-  margin-bottom: 800px;
+  max-width: 50rem;
+  margin-bottom: 3.125rem;
 }
 
 img {
-  width: 800px;
-  height: 800px;
+  width: 50rem;
+  height: 50rem;
   transition: 1s all;
 }
 
@@ -40,7 +40,7 @@ input {
 }
 
 label {
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 label:hover {
@@ -49,20 +49,20 @@ label:hover {
 
 label span:active {
   background-color: #d3d3d3;
-  border: 3px solid #d3d3d3;
+  border: 0.125rem solid #d3d3d3;
 }
 
 label:hover span {
   background-color:#ffffff;
-  border: 3px solid #ffffff;
+  border: 0.125rem solid #ffffff;
 }
 
 .inputs_label span {
   display:block;
-  height: 25px;
-  width: 25px;
+  height: 1.25rem;
+  width: 1.25rem;
   background-color: #72adff;
-  border: 3px solid #72adff;
+  border: 0.125rem solid #72adff;
   border-radius: 50%; 
   transition: 0.5s;
 }
@@ -101,32 +101,33 @@ label:hover span {
 }
 
 .slider_text {
-  margin-top: -40px;
-  margin-right: 400px;
+  margin-top: -2.5rem;
+  margin-right: 20rem;
 }
 
 .slider_text  p {
   display: block;
   font-size: 1.5rem;
   color: #ffffff;  
-  min-width: 400px;
+  min-width: 31rem;
   transition: 1s all;
 }
 
 footer {
   margin: 0 auto;
-  width: 800px;
+  width: 50rem;
   display: flex;
   justify-content: space-between;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 6.25rem;
+  margin-bottom: 3.75rem;
+  gap: 2rem;
 }
 
 footer, a {
   font-size: 2rem;
   color:#ffffff;
   text-decoration: none;
-  padding: 5px;
+  padding: 0.25rem;
 }
 
 @media (max-width: 1000px){
@@ -148,7 +149,7 @@ footer, a {
   }
 
   .slider_text{
-    margin: 40px 0;
+    margin: 2.5rem 0;
     max-width: 90vw;
   }
 
