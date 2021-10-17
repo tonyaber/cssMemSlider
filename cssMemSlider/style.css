@@ -43,6 +43,20 @@ label {
   padding: 10px;
 }
 
+label:hover {
+  cursor: pointer;
+}
+
+label span:active {
+  background-color: #d3d3d3;
+  border: 3px solid #d3d3d3;
+}
+
+label:hover span {
+  background-color:#ffffff;
+  border: 3px solid #ffffff;
+}
+
 .inputs_label span {
   display:block;
   height: 25px;
